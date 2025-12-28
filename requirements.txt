@@ -1,21 +1,35 @@
+# Core FastAPI dependencies
 fastapi 
 uvicorn 
+
+# Database
 sqlalchemy 
 pymysql
-twilio
-chromadb
-langchain-google-genai
-langchain_community
-langchain_core
-langchain_openai
 psycopg2-binary
-python-multipart
-pyngrok
-langchain
-openai
-python-decouple
+
+# Authentication & Security
 passlib
-markdown2
+bcrypt
+python-jose[cryptography]
+
+# External Services
+twilio
+httpx
+requests
+
+# Utilities
+python-multipart
+python-dotenv
 pydantic[email]
 Pillow
-bcrypt
+markdown2
+
+# Legacy dependencies (can be removed if not using chain.py)
+# chromadb
+# langchain-google-genai
+# langchain_community
+# langchain_core
+# langchain_openai
+# langchain
+# openai
+# pyngrok
